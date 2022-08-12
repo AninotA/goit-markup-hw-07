@@ -45,7 +45,7 @@
 
 /* logo */
 
-.logo {
+.nav__logo {
   color: #000000;
   margin-right: 93px;
 }
@@ -59,7 +59,7 @@
   margin-bottom: 20px;
 }
 
-.logo,
+.nav__logo,
 .footer-logo,
 .web {
   font-family: var(--secondary-font);
@@ -106,12 +106,12 @@
   color: var(--accent-txt-cl);
 }
 
-.current {
+.nav__link--current {
   color: var(--accent-txt-cl);
   position: relative;
 }
 
-.current::after {
+.nav__link--current::after {
   content: '';
   position: absolute;
   left: 0;
@@ -141,16 +141,16 @@
   padding-bottom: 31px;
 }
 
-.icon {
+.contacts__icon {
   fill: currentColor;
   margin-right: 10px;
 }
 
-.mail-icon {
+.contacts-mail__icon {
   width: 16px;
   height: 12px;
 }
-.phone-icon {
+.contacts-phone__icon {
   width: 10px;
   height: 16px;
 }
@@ -247,7 +247,7 @@
   background-color: var(--btn-bg-cl);
 }
 
-.thumb {
+.feature-list__thumb {
   display: flex;
   width: 270px;
   height: 120px;
@@ -271,7 +271,7 @@
   justify-content: center;
 } */
 
-.feature-title {
+.feature-list__title {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -279,7 +279,7 @@
   color: var(--main-txt-cl);
   margin-bottom: 10px;
 }
-.feature-descr {
+.feature-list__descr {
   line-height: 24px;
   color: var(--descr-txt-cl);
 }
