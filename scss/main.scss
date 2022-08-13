@@ -11,14 +11,24 @@
 // components styles
 
 @import './components/buttons';
-
 @import './components/container';
 @import './components/sections';
 @import './components/logo';
 @import './components/titles';
+@import './components/overlay';
+@import './components/backdrop';
+@import './components/modal-form';
+@import './components/footer-form';
 
 // layouts styles
 
 @import './layout/header';
 @import './layout/nav';
 @import './layout/hero';
+@import './layout/feature';
+@import './layout/info';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/filters';
+@import './layout/product';
+@import './layout/footer';

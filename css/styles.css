@@ -171,7 +171,7 @@
 
 /* MAIN */
 
-.overlay {
+/* .overlay {
   height: 600px;
   max-width: 1600px;
   margin-left: auto;
@@ -181,7 +181,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 /* .hero-section {
   background-color: var(--dark-bg-cl);
@@ -221,7 +221,7 @@
   background-color: var(--btn-bg-cl);
 } */
 
-.feature-list {
+/* .feature-list {
   display: flex;
   flex-basis: 270px;
   gap: 30px;
@@ -250,9 +250,9 @@
 .feature-list__descr {
   line-height: 24px;
   color: var(--descr-txt-cl);
-}
+} */
 
-.info {
+/* .info {
   padding-top: 0;
 }
 
@@ -284,9 +284,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
-.team {
+/* .team {
   background-color: var(--light-bg-cl);
 }
 
@@ -349,11 +349,11 @@
 
 .team-socials__icon {
   fill: currentColor;
-}
+} */
 
 /* Clients */
 
-.clients__list {
+/* .clients__list {
   display: flex;
   align-items: center;
   gap: 30px;
@@ -380,10 +380,10 @@
 .clients__link:focus {
   color: var(--accent-bg-cl);
   border-color: var(--accent-bg-cl);
-}
+} */
 
 /* FOOTER */
-
+/* 
 .footer__container {
   display: flex;
   align-items: baseline;
@@ -516,11 +516,11 @@
 .btn__icon {
   fill: var(--white-bg-cl);
   margin-left: 10px;
-}
+} */
 
 /* PORTFOLIO */
 
-.filters-list {
+/* .filters-list {
   display: flex;
   justify-content: center;
   gap: 8px;
@@ -552,9 +552,9 @@
 .filters-btn-current {
   background-color: var(--accent-bg-cl);
   color: var(--white-txt-cl);
-}
+} */
 
-.product-list {
+/* .product-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -631,11 +631,11 @@
 .product-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
 /* MODAL WINDOW */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -657,9 +657,9 @@
 
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.9);
-}
+} */
 
-.modal {
+/* .modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -854,4 +854,4 @@
 .form-btn:hover,
 .form-btn:focus {
   background-color: var(--accent-bg-cl);
-}
+} */
