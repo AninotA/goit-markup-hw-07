@@ -5,6 +5,7 @@
 
 .team__list {
   @extend %reset-list;
+
   display: flex;
   gap: 30px;
 }
@@ -38,6 +39,8 @@
 }
 
 .team-socials {
+  @extend %reset-list;
+  
   display: flex;
   justify-content: center;
   gap: 10px;

@@ -1,14 +1,9 @@
-/**
-  |============================
-  | Block 1
-  |============================
-*/
 :root {
-    /* fonts */
+   
     --main-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
   
-    /* text color */
+    
     --main-txt-cl: #212121;
     --accent-txt-cl: #2196f3;
     --white-txt-cl: #ffffff;
@@ -16,7 +11,7 @@
     --foot-txt-cl: rgba(255, 255, 255, 0.6);
     --placeholder-txt-cl: rgba(117, 117, 117, 0.5);
   
-    /* bg colors */
+  
     --white-bg-cl: #ffffff;
     --light-bg-cl: #f5f4fa;
     --dark-bg-cl: #2f303a;
@@ -28,7 +23,7 @@
     --modal-bg-cl: rgba(0, 0, 0, 0.2);
     --overlay-bg-cl: rgba(33, 150, 243, 0.9);
   
-    /* border colors */
+   
     --border-head-cl: #ececec;
     --border-card-cl: #eeeeee;
     --border-foot-cl: rgba(255, 255, 255, 0.3);
