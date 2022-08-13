@@ -1,0 +1,22 @@
+.nav__logo {
+    color: #000000;
+    margin-right: 93px;
+  }
+  
+  .web {
+    color: var(--accent-txt-cl);
+  }
+  
+  .footer__logo {
+    color: var(--white-txt-cl);
+    margin-bottom: 20px;
+  }
+  
+  .nav__logo,
+  .footer__logo,
+  .web {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+  }

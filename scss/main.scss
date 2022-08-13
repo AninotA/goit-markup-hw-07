@@ -1,17 +1,24 @@
 // utils styles
 
-@import "./utils/variables"; 
-@import "./utils/visually-hidden";
+@import './utils/variables';
+@import './utils/visually-hidden';
 
 // base styles
 
-@import "./base/base";
-@import "./base/reset";
+@import './base/base';
+@import './base/reset';
 
 // components styles
 
-@import "./components/buttons";
+@import './components/buttons';
+
+@import './components/container';
+@import './components/sections';
+@import './components/logo';
+@import './components/titles';
 
 // layouts styles
 
-@import "./layout/header";
+@import './layout/header';
+@import './layout/nav';
+@import './layout/hero';
