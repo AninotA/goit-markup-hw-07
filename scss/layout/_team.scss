@@ -1,8 +1,10 @@
 .team {
+  @extend %section;
   background-color: var(--light-bg-cl);
 }
 
 .team__list {
+  @extend %reset-list;
   display: flex;
   gap: 30px;
 }
@@ -42,6 +44,7 @@
 }
 
 .team-socials__link {
+  @extend %reset-link;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -1,8 +1,10 @@
 .info {
+  @extend %section;
   padding-top: 0;
 }
 
 .info-list {
+  @extend %reset-list;
   display: flex;
   gap: 30px;
   padding-top: 0;

@@ -5,6 +5,8 @@
 }
 
 .nav__link {
+  @extend %reset-link;
+
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
@@ -38,6 +40,8 @@
 }
 
 .nav__list {
+  @extend %reset-list;
+  
   display: flex;
   gap: 50px;
 }

@@ -28,31 +28,31 @@
     <header class="header">
       <div class="container header__container">
         <nav class="nav">
-          <a class="nav__logo link" href="./index.html"><span class="web">Web</span>Studio</a>
+          <a class="nav__logo" href="./index.html"><span class="web">Web</span>Studio</a>
 
-          <ul class="nav__list list">
+          <ul class="nav__list">
             <li class="nav__item">
-              <a class="nav__link link" href="./index.html">Студия</a>
+              <a class="nav__link" href="./index.html">Студия</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link link nav__link--current" href="./portfolio.html">Портфолио</a>
+              <a class="nav__link nav__link--current" href="./portfolio.html">Портфолио</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link link" href="/">Контакты</a>
+              <a class="nav__link" href="/">Контакты</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="header-contacts list">
+        <ul class="header-contacts">
           <li class="header-contacts__item">
-            <a class="header-contacts__mail header-contacts__link link" href="mailto:info@devstudio.com"
+            <a class="header-contacts__mail header-contacts__link" href="mailto:info@devstudio.com"
               ><svg class="header-contacts__icon-mail header-contacts__icon">
                 <use href="./images/icons.svg#envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
           <li class="header-contacts__item">
-            <a class="header-contacts__phone  header-contacts__link link" href="tel:+380961111111"
+            <a class="header-contacts__phone  header-contacts__link" href="tel:+380961111111"
               ><svg class="header-contacts__icon-phone header-contacts__icon">
                 <use href="./images/icons.svg#smartphone"></use></svg
               >+38 096 111 11 11</a
@@ -63,32 +63,32 @@
     </header>
 
     <main>
-      <section class="project section">
+      <section class="project">
         <div class="container">
           <!--Скрытый заголовок-->
           <h1 class="visually-hidden">Проекты</h1>
-          <ul class="filters-list list">
-            <li class="filters-item">
-              <button type="button" class="filters-btn btn list filters-btn-current">Все</button>
+          <ul class="project-filters__list">
+            <li class="project-filters__item">
+              <button type="button" class="project-filters__btn btn project-filters__current-btn">Все</button>
             </li>
             <li class="filters-item">
-              <button type="button" class="filters-btn btn list">Веб-сайты</button>
+              <button type="button" class="project-filters__btn btn">Веб-сайты</button>
             </li>
             <li class="filters-item">
-              <button type="button" class="filters-btn btn list">Приложения</button>
+              <button type="button" class="project-filters__btn btn">Приложения</button>
             </li>
             <li class="filters-item">
-              <button type="button" class="filters-btn btn list">Дизайн</button>
+              <button type="button" class="project-filters__btn btn">Дизайн</button>
             </li>
             <li class="filters-item">
-              <button type="button" class="filters-btn btn list">Маркетинг</button>
+              <button type="button" class="project-filters__btn btn">Маркетинг</button>
             </li>
           </ul>
 
-          <ul class="product-list list">
-            <li class="product-item">
-              <a href="./portfolio.html" class="product-link link">
-                <div class="product-img">
+          <ul class="project-product__list">
+            <li class="project-product__item">
+              <a href="./portfolio.html" class="project-product__link">
+                <div class="project-product__img">
                   <img
                     src="./images/portfolio/imgtechnokryak.jpg"
                     alt="три фото людей с команды на сайте"
@@ -96,23 +96,23 @@
                     height="294"
                     class="img"
                   />
-                  <div class="product-overlay">
-                    <p class="product-text">
+                  <div class="project-product__overlay">
+                    <p class="project-product__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="product-name">
-                  <h2 class="product-title">Технокряк</h2>
-                  <p class="product-descr">Веб-сайт</p>
+                <div class="project-product__name">
+                  <h2 class="project-product__title">Технокряк</h2>
+                  <p class="project-product__descr">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="product-item">
-              <a href="./portfolio.html" class="product-link link"
-                ><div class="product-img">
+            <li class="project-product__item">
+              <a href="./portfolio.html" class="project-product__link"
+                ><div class="project-product__img">
                   <img
                     src="./images/portfolio/imgposter.jpg"
                     alt="два баскетболиста с мячом"
@@ -120,23 +120,23 @@
                     height="294"
                     class="img"
                   />
-                  <div class="product-overlay">
-                    <p class="product-text">
+                  <div class="project-product__overlay">
+                    <p class="project-product__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="product-name">
-                  <h2 class="product-title" lang="en">Постер New Orlean vs Golden Star</h2>
-                  <p class="product-descr">Дизайн</p>
+                <div class="project-product__name">
+                  <h2 class="project-product__title" lang="en">Постер New Orlean vs Golden Star</h2>
+                  <p class="project-product__descr">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="product-item">
-              <a href="./portfolio.html" class="product-link link">
-                <div class="product-img">
+            <li class="project-product__item">
+              <a href="./portfolio.html" class="project-product__link">
+                <div class="project-product__img">
                   <img
                     src="./images/portfolio/imgrestaurant.jpg"
                     alt="название ресторана Seafood"
@@ -144,23 +144,23 @@
                     height="294"
                     class="img"
                   />
-                  <div class="product-overlay">
-                    <p class="product-text">
+                  <div class="project-product__overlay">
+                    <p class="project-product__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="product-name">
-                  <h2 class="product-title" lang="en">Ресторан Seafood</h2>
-                  <p class="product-descr">Приложение</p>
+                <div class="project-product__name">
+                  <h2 class="project-product__title" lang="en">Ресторан Seafood</h2>
+                  <p class="project-product__descr">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="product-item">
-              <a href="./portfolio.html" class="product-link link"
-                ><div class="product-img">
+            <li class="project-product__item">
+              <a href="./portfolio.html" class="project-product__link"
+                ><div class="project-product__img">
                   <img
                     src="./images/portfolio/imgprime.jpg"
                     alt="наушники"
@@ -168,23 +168,23 @@
                     height="294"
                     class="img"
                   />
-                  <div class="product-overlay">
-                    <p class="product-text">
+                  <div class="project-product__overlay">
+                    <p class="project-product__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="product-name">
-                  <h2 class="product-title" lang="en">Проект Prime</h2>
-                  <p class="product-descr">Маркетинг</p>
+                <div class="project-product__name">
+                  <h2 class="project-product__title" lang="en">Проект Prime</h2>
+                  <p class="project-product__descr">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="product-item">
-              <a href="./portfolio.html" class="product-link link"
-                ><div class="product-img">
+            <li class="project-product__item">
+              <a href="./portfolio.html" class="project-product__link"
+                ><div class="project-product__img">
                   <img
                     src="./images/portfolio/imgboxes.jpg"
                     alt="две коробки"
@@ -192,23 +192,23 @@
                     height="294"
                     class="img"
                   />
-                  <div class="product-overlay">
-                    <p class="product-text">
+                  <div class="project-product__overlay">
+                    <p class="project-product__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="product-name">
-                  <h2 class="product-title" lang="en">Проект Boxes</h2>
-                  <p class="product-descr">Приложение</p>
+                <div class="project-product__name">
+                  <h2 class="project-product__title" lang="en">Проект Boxes</h2>
+                  <p class="project-product__descr">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="product-item">
-              <a href="./portfolio.html" class="product-link link">
-                <div class="product-img">
+            <li class="project-product__item">
+              <a href="./portfolio.html" class="project-product__link">
+                <div class="project-product__img">
                   <img
                     src="./images/portfolio/imgborders.jpg"
                     alt="интернет-страница на мониторе"
@@ -216,23 +216,23 @@
                     height="294"
                     class="img"
                   />
-                  <div class="product-overlay">
-                    <p class="product-text">
+                  <div class="project-product__overlay">
+                    <p class="project-product__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="product-name">
-                  <h2 class="product-title" lang="en">Inspiration has no Borders</h2>
-                  <p class="product-descr">Веб-сайт</p>
+                <div class="project-product__name">
+                  <h2 class="project-product__title" lang="en">Inspiration has no Borders</h2>
+                  <p class="project-product__descr">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="product-item">
-              <a href="./portfolio.html" class="product-link link">
-                <div class="product-img">
+            <li class="project-product__item">
+              <a href="./portfolio.html" class="project-product__link">
+                <div class="project-product__img">
                   <img
                     src="./images/portfolio/imglimited.jpg"
                     alt="журнал в котором две статьи и три фотографии"
@@ -240,23 +240,23 @@
                     height="294"
                     class="img"
                   />
-                  <div class="product-overlay">
-                    <p class="product-text">
+                  <div class="project-product__overlay">
+                    <p class="project-product__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="product-name">
-                  <h2 class="product-title" lang="en">Издание Limited Edition</h2>
-                  <p class="product-descr">Дизайн</p>
+                <div class="project-product__name">
+                  <h2 class="project-product__title" lang="en">Издание Limited Edition</h2>
+                  <p class="project-product__descr">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="product-item">
-              <a href="./portfolio.html" class="product-link link"
-                ><div class="product-img">
+            <li class="project-product__item">
+              <a href="./portfolio.html" class="project-product__link"
+                ><div class="project-product__img">
                   <img
                     src="./images/portfolio/imglab.jpg"
                     alt="бирка с надписью lab el tag"
@@ -264,23 +264,23 @@
                     height="294"
                     class="img"
                   />
-                  <div class="product-overlay">
-                    <p class="product-text">
+                  <div class="project-product__overlay">
+                    <p class="project-product__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="product-name">
-                  <h2 class="product-title" lang="en">Проект LAB</h2>
-                  <p class="product-descr">Маркетинг</p>
+                <div class="project-product__name">
+                  <h2 class="project-product__title" lang="en">Проект LAB</h2>
+                  <p class="project-product__descr">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="product-item">
-              <a href="./portfolio.html" class="product-link link"
-                ><div class="product-img">
+            <li class="project-product__item">
+              <a href="./portfolio.html" class="project-product__link policy-link"
+                ><div class="project-product__img">
                   <img
                     src="./images/portfolio/imgbusiness.jpg"
                     alt="руки на клавиатуре ноутбука с открытой веб-страницей"
@@ -288,17 +288,17 @@
                     height="294"
                     class="img"
                   />
-                  <div class="product-overlay">
-                    <p class="product-text">
+                  <div class="project-product__overlay">
+                    <p class="project-product__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="product-name">
-                  <h2 class="product-title" lang="en">Growing Business</h2>
-                  <p class="product-descr">Приложение</p>
+                <div class="project-product__name">
+                  <h2 class="project-product__title" lang="en">Growing Business</h2>
+                  <p class="project-product__descr">Приложение</p>
                 </div>
               </a>
             </li>
@@ -310,13 +310,13 @@
     <footer class="footer">
       <div class="container footer__container">
         <div class="footer__part">
-          <a class="footer__logo link" href="./index.html"><span class="web">Web</span>Studio</a>
+          <a class="footer__logo" href="./index.html"><span class="web">Web</span>Studio</a>
 
           <address class="footer__address">
-            <ul class="footer__list list">
+            <ul class="footer__list">
               <li class="footer__item">
                 <a
-                  class="footer__link link"
+                  class="footer__link"
                   href="http://www.google.com/maps/place"
                   target="_blank"
                   rel="noopener noreferre"
@@ -324,10 +324,10 @@
                 >
               </li>
               <li class="footer__item">
-                <a class="footer__mail link" href="mailto:info@example.com">info@example.com</a>
+                <a class="footer__mail" href="mailto:info@example.com">info@example.com</a>
               </li>
               <li class="footer__item">
-                <a class="footer__phone link" href="tel:+380991111111">+38 099 111 11 11</a>
+                <a class="footer__phone" href="tel:+380991111111">+38 099 111 11 11</a>
               </li>
             </ul>
           </address>
@@ -335,10 +335,10 @@
 
         <div class="switch-footer">
           <p class="switch-footer__title">присоединяйтесь</p>
-          <ul class="switch-footer__list list">
+          <ul class="switch-footer__list">
             <li class="switch-footer__item">
               <a
-                class="switch-footer__link link"
+                class="switch-footer__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -351,7 +351,7 @@
             </li>
             <li class="switch-footer__item">
               <a
-                class="switch-footer__link link"
+                class="switch-footer__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -364,7 +364,7 @@
             </li>
             <li class="sswitch-footer__item">
               <a
-                class="switch-footer__link link link"
+                class="switch-footer__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -377,7 +377,7 @@
             </li>
             <li class="switch-footer__item">
               <a
-                class="switch-footer__link link"
+                class="switch-footer__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
